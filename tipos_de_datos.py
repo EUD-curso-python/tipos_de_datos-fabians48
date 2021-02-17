@@ -97,32 +97,37 @@ apellidos_list2 = list(apellidos_tuple) #+ apellidos_list[78]
 """Eliminar el 4 elemento de la variable `apellidos_list2`.
 """
 apellidos_list2.pop(3)
-print(apellidos_list2)
+#print(apellidos_list2)
 
 """Eliminar el elemento igual a "  MORALES" de la variable `apellidos_list2`.
 """
 apellidos_list2.remove("  MORALES")
-print(apellidos_list2)
+#print(apellidos_list2)
 
 """Agregar (concatenar) a la variable `apellidos_list2`, la lista obtenida del
 elemento 56 al 70 de la variable `apellidos_list`.
 """
-
+#apellidos_list2
 
 """Invertir el orden actual de la variable `apellidos_list2`.
 """
-
+apellidos_list2.reverse()
+#print(apellidos_list2)
 
 """Crear variable `apellidos_set1` con los elementos del 56 al 66 de la 
 variable `apellidos_list`, y crear variable `apellidos_set2` con elementos del 
 62 al 76 de la variable `apellidos_list`.
 """
-
+apellidos_set1=apellidos_list[56:10]
+apellidos_set2=apellidos_list[62:14]
+print(apellidos_set1)
+print(apellidos_set2)
 
 """Agregar a variable `apellidos_set1` el elemento en la pocisión 67 de la 
 variable `apellidos_list`.
 """
-
+apellidos_set1.append(apellidos_list[67])
+print(apellidos_set1)
 
 """Agregar a variable `apellidos_set1` los elementos del 68 al 70 de la 
 variable `apellidos_list`.
