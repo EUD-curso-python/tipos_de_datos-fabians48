@@ -112,7 +112,9 @@ print(apellidos_list2)
 
 """Invertir el orden actual de la variable `apellidos_list2`.
 """
+
 apellidos_list2.reverse()
+#print("invertir")
 #print(apellidos_list2)
 
 """Crear variable `apellidos_set1` con los elementos del 56 al 66 de la 
