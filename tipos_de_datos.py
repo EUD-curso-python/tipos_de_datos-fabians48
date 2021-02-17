@@ -70,18 +70,22 @@ apellido3 = apellido2.upper()
 la variable `apellido2`.
 """
 a_in_apellido = apellido2.count('a')
-print(a_in_apellido)
+#print(a_in_apellido)
 
 """Crear variable `apellido_end_ez` que contenga si la variable `apellido2` 
 termina con el string `"ez"`.
 """
-
+apellido_end_ez = apellido2.endswith('ez')
+#print(apellido_end_ez)
 
 """Crear tupla llamada `apellidos_tuple` que contenga los elementos desde el 49 
 al 23 (en orden invertido), saltandose de a 1 elemento (49, 47, 45 , etc) de la
 lista `apellidos_list`.
 """
-
+apellidos_tuple = apellidos_list[-23:-29:-2]
+print(apellidos_tuple)
+#print("normal")
+#print(apellidos_list[23:49:1])
 
 """Crear variable `apellidos_list2` que contenga una copia de `apellidos_tuple` 
 (con las conversiones que sean necesarias) y agregarle el elemento de la 
