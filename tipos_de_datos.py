@@ -58,17 +58,19 @@ apellido2 = apellido.replace(' ','')
 solo letras mayúsculas.
 """
 apellido_es_mayuscula = apellido2.isupper()
-print(apellido_es_mayuscula)
+#print(apellido_es_mayuscula)
 
 """Convertir la variable `apellido2` de mayúsculas a minúsculas si está en mayúsculas, 
 o de minúsculas a mayúsculas si está en minúsculas y guardarla en `apellido3`.
 """
-
+apellido3 = apellido2.upper()
+#print(apellido3)
 
 """Crear variable `a_in_apellido` que contenga la cantidad de letras a que contiene 
 la variable `apellido2`.
 """
-
+a_in_apellido = apellido2.count('a')
+print(a_in_apellido)
 
 """Crear variable `apellido_end_ez` que contenga si la variable `apellido2` 
 termina con el string `"ez"`.
