@@ -141,25 +141,26 @@ apellidos_set1.update(apellidos_list[68:70])
 
 """Eliminar el elemento " CAMPOS  " de la variable `apellidos_set1`.
 """
-#apellidos_set1.remove(" CAMPOS  ")
+apellidos_set1.remove(" CAMPOS  ")
+#print(apellidos_set1)
 
 """Crear la variable `apellidos_set3` con la intersección entre `apellidos_set1` 
 y `apellidos_set2`.
 """
 apellidos_set3=apellidos_set1&apellidos_set2
-print(apellidos_set3)
+#print(apellidos_set3)
 
 """Crear la variable `apellidos_set4` con la unión entre `apellidos_set1` y 
 `apellidos_set2`.
 """
 apellidos_set4=apellidos_set1|apellidos_set2
-print(apellidos_set4)
+#print(apellidos_set4)
 
 """Crear la variable `apellidos_set5` con la diferencia de `apellidos_set1` menos 
 `apellidos_set2`.
 """
 apellidos_set5=apellidos_set1-apellidos_set2
-print(apellidos_set5)
+#print(apellidos_set5)
 
 """Crear la variable `apellidos_set5` con la diferencia simétrica entre 
 `apellidos_set1` y `apellidos_set2`.
