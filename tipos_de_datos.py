@@ -51,13 +51,14 @@ len_apellido = len(apellido)
 resultado en `apellido2`.
 """
 apellido2 = apellido.replace(' ','')
-print(apellido2)
+#print(apellido2)
 
 
 """Guardar en `apellido_es_mayuscula` si `apellido2` es un string que contiene 
 solo letras mayúsculas.
 """
-
+apellido_es_mayuscula = apellido2.isupper()
+print(apellido_es_mayuscula)
 
 """Convertir la variable `apellido2` de mayúsculas a minúsculas si está en mayúsculas, 
 o de minúsculas a mayúsculas si está en minúsculas y guardarla en `apellido3`.
