@@ -122,14 +122,15 @@ variable `apellidos_list`, y crear variable `apellidos_set2` con elementos del
 """
 apellidos_set1=set(apellidos_list[56:65])
 apellidos_set2=set(apellidos_list[62:75])
-print(apellidos_set1)
+#print(apellidos_set1)
 #print(apellidos_set2)
 
 """Agregar a variable `apellidos_set1` el elemento en la pocisión 67 de la 
 variable `apellidos_list`.
 """
 apellidos_set1.add(apellidos_list[67])
-print(apellidos_set1)
+#print(apellidos_set1)
+
 
 """Agregar a variable `apellidos_set1` los elementos del 68 al 70 de la 
 variable `apellidos_list`.
