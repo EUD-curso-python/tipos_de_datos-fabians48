@@ -132,16 +132,17 @@ print(apellidos_set1)
 """Agregar a variable `apellidos_set1` los elementos del 68 al 70 de la 
 variable `apellidos_list`.
 """
-
+#apellidos_set1
 
 """Eliminar el elemento " CAMPOS  " de la variable `apellidos_set1`.
 """
-
+#apellidos_set1.remove(" CAMPOS  ")
 
 """Crear la variable `apellidos_set3` con la intersección entre `apellidos_set1` 
 y `apellidos_set2`.
 """
-
+apellidos_set3=set(apellidos_set1)&set(apellidos_set2)
+print(apellidos_set3)
 
 """Crear la variable `apellidos_set4` con la unión entre `apellidos_set1` y 
 `apellidos_set2`.
