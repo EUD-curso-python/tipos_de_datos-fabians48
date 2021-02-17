@@ -82,16 +82,15 @@ apellido_end_ez = apellido2.endswith('ez')
 al 23 (en orden invertido), saltandose de a 1 elemento (49, 47, 45 , etc) de la
 lista `apellidos_list`.
 """
-apellidos_tuple = apellidos_list[-23:-29:-1]
+apellidos_tuple = tuple(apellidos_list[49:22:-2])
 #print(apellidos_tuple)
-#print("normal")
-#print(apellidos_list[23:49:1])
+
 
 """Crear variable `apellidos_list2` que contenga una copia de `apellidos_tuple` 
 (con las conversiones que sean necesarias) y agregarle el elemento de la 
 posición 78 de la lista `apellidos_list`.
 """
-apellidos_list2 = apellidos_tuple #+ apellidos_list[78]
+apellidos_list2 = apellidos_tuple + apellidos_list[78]
 print(apellidos_list2)
 
 """Eliminar el 4 elemento de la variable `apellidos_list2`.
