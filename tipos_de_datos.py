@@ -128,6 +128,7 @@ apellidos_set2=set(apellidos_list[62:75])
 """Agregar a variable `apellidos_set1` el elemento en la pocisión 67 de la 
 variable `apellidos_list`.
 """
+print("anterior")
 apellidos_set1.add(apellidos_list[67])
 #print(apellidos_set1)
 
@@ -135,8 +136,11 @@ apellidos_set1.add(apellidos_list[67])
 """Agregar a variable `apellidos_set1` los elementos del 68 al 70 de la 
 variable `apellidos_list`.
 """
-#apellidos_set1=set(apellidos_list[68:2])
-#print apellidos_set1
+print("nuevo")
+print(set(apellidos_list[68:70]))
+apellidos_set1.add(set(apellidos_list[68:69]))
+#print(apellidos_set1)
+print("nuevo")
 
 """Eliminar el elemento " CAMPOS  " de la variable `apellidos_set1`.
 """
