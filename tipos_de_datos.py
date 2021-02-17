@@ -31,12 +31,13 @@ decimales_list=decimales.split(';')
 """Obtener el elemento en la posición 38 de `decimales_list`, procesarlo para 
 convertirlo en un entero y guardarlo en variable `var2`.
 """
-var2 = decimales_list[38]
+var2 = int(float(decimales_list[38]))
 print(var2)
 
 """Obtener el valor en la posición que indique dicho entero (`var2`) de la lista 
 `apellidos_list`. Guardar el resultado en variable `apellido`.
 """
+apellido = apellidos_list[var2]
 
 
 """obtener la longitud (cantidad de caracteres) de la variable `apellido` y 
