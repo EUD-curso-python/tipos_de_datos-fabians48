@@ -90,16 +90,19 @@ apellidos_tuple = tuple(apellidos_list[49:22:-2])
 (con las conversiones que sean necesarias) y agregarle el elemento de la 
 posición 78 de la lista `apellidos_list`.
 """
-apellidos_list2 = apellidos_tuple + apellidos_list[78]
-print(apellidos_list2)
+apellidos_list2 = list(apellidos_tuple) #+ apellidos_list[78]
+#apellidos_list2 = apellidos_list[78]
+#print(apellidos_list2)
 
 """Eliminar el 4 elemento de la variable `apellidos_list2`.
 """
-
+apellidos_list2.pop(3)
+print(apellidos_list2)
 
 """Eliminar el elemento igual a "  MORALES" de la variable `apellidos_list2`.
 """
-
+apellidos_list2.remove("  MORALES")
+print(apellidos_list2)
 
 """Agregar (concatenar) a la variable `apellidos_list2`, la lista obtenida del
 elemento 56 al 70 de la variable `apellidos_list`.
