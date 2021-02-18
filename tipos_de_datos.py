@@ -107,7 +107,7 @@ apellidos_list2.remove("  MORALES")
 """Agregar (concatenar) a la variable `apellidos_list2`, la lista obtenida del
 elemento 56 al 70 de la variable `apellidos_list`.
 """
-apellidos_list2.extend(apellidos_list[56:69])
+apellidos_list2.extend(apellidos_list[56:70])
 #print(apellidos_list2)
 
 """Invertir el orden actual de la variable `apellidos_list2`.
