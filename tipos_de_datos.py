@@ -120,8 +120,8 @@ apellidos_list2.reverse()
 variable `apellidos_list`, y crear variable `apellidos_set2` con elementos del 
 62 al 76 de la variable `apellidos_list`.
 """
-apellidos_set1=set(apellidos_list[56:65])
-apellidos_set2=set(apellidos_list[62:75])
+apellidos_set1=set(apellidos_list[56:67])
+apellidos_set2=set(apellidos_list[62:77])
 #print(apellidos_set1)
 #print(apellidos_set2)
 
