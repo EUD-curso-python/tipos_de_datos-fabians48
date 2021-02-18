@@ -191,16 +191,18 @@ apellidos_dict.update({"key1": 12, "key2": 24})
 `apellidos_dict`.
 """
 apellidos_dict["gonzalez"]=34
-print(apellidos_dict)
+#print(apellidos_dict)
 
 """Sacar el valor de la llave "gonzalez" del diccionario `apellidos_dict` y 
 guardarlo en la variable `apellido_gonzalez`.
 """
-
+apellido_gonzalez = apellidos_dict["gonzalez"]
+print(apellido_gonzalez)
 
 """Eliminar el último elemento del diccionario `apellidos_dict`.
 """
-
+del(apellidos_dict["key2"])
+print(apellidos_dict)
 
 """Sacar el valor de la llave "no_existe" del diccionario `apellidos_dict` y 
 guardarlo en la variable `apellido_none`.
