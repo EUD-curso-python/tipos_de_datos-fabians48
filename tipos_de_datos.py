@@ -185,12 +185,13 @@ apellidos_dict = dict.fromkeys(apellidos_list[0:4])
 `apellidos_dict`.
 """
 apellidos_dict.update({"key1": 12, "key2": 24})
-print(apellidos_dict)
+#print(apellidos_dict)
 
 """Asignar el valor del entero `34` a la llave "gonzalez" en el diccionario 
 `apellidos_dict`.
 """
-
+apellidos_dict["gonzalez"]=34
+print(apellidos_dict)
 
 """Sacar el valor de la llave "gonzalez" del diccionario `apellidos_dict` y 
 guardarlo en la variable `apellido_gonzalez`.
