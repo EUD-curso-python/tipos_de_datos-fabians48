@@ -171,7 +171,7 @@ apellidos_set5=apellidos_set1^apellidos_set2
 """Crear la variable `var3` con la respuesta a la pregunta de si `apellidos_set3` 
 es un subconjunto de `apellidos_set1`.
 """
-var3=apellidos_set1.issubset(apellidos_set3)
+var3=apellidos_set3.issubset(apellidos_set1)
 #print(var3)
 
 """Crear la variable `apellidos_dict` usando la función `fromkeys` con la lista
