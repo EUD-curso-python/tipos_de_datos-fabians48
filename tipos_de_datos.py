@@ -185,7 +185,7 @@ print(apellidos_dict)
 `apellidos_dict`.
 """
 apellidos_dict.update({"key1": 12, "key2": 24})
-print(apellidos_dict)
+#print(apellidos_dict)
 
 """Asignar el valor del entero `34` a la llave "gonzalez" en el diccionario 
 `apellidos_dict`.
