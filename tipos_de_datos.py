@@ -97,7 +97,7 @@ apellidos_list2.append(apellidos_list[78])
 """Eliminar el 4 elemento de la variable `apellidos_list2`.
 """
 apellidos_list2.pop(3)
-#print(apellidos_list2)
+print(apellidos_list2)
 
 """Eliminar el elemento igual a "  MORALES" de la variable `apellidos_list2`.
 """
