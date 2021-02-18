@@ -196,7 +196,7 @@ apellidos_dict["gonzalez"]=34
 """Sacar el valor de la llave "gonzalez" del diccionario `apellidos_dict` y 
 guardarlo en la variable `apellido_gonzalez`.
 """
-apellido_gonzalez = apellidos_dict["gonzalez"]
+apellido_gonzalez = apellidos_dict.get("gonzalez")
 #print(apellido_gonzalez)
 
 """Eliminar el último elemento del diccionario `apellidos_dict`.
