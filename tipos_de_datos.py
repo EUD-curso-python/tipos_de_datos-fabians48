@@ -177,7 +177,7 @@ var3=apellidos_set3.issubset(apellidos_set1)
 """Crear la variable `apellidos_dict` usando la función `fromkeys` con la lista
 del 0 al 4 de la lista `apellidos_lista`.
 """
-apellidos_dict = dict.fromkeys(apellidos_list[0:5])
+apellidos_dict = dict.fromkeys(apellidos_list[0:4])
 print(apellidos_dict)
 
 
