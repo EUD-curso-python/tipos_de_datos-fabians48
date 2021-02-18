@@ -135,7 +135,7 @@ apellidos_set1.add(apellidos_list[67])
 """Agregar a variable `apellidos_set1` los elementos del 68 al 70 de la 
 variable `apellidos_list`.
 """
-apellidos_set1.update(apellidos_list[68:70])
+apellidos_set1.update(apellidos_list[68:71])
 #print(apellidos_set1)
 
 
