@@ -177,12 +177,15 @@ var3=apellidos_set1.issubset(apellidos_set3)
 """Crear la variable `apellidos_dict` usando la función `fromkeys` con la lista
 del 0 al 4 de la lista `apellidos_lista`.
 """
+apellidos_dict = dict.fromkeys(apellidos_list[0:4])
+#print(apellidos_dict)
 
 
 """Agregar el siguiente diccionario: {"key1": 12, "key2": 24} al diccionario  
 `apellidos_dict`.
 """
-
+apellidos_dict.update({"key1": 12, "key2": 24})
+print(apellidos_dict)
 
 """Asignar el valor del entero `34` a la llave "gonzalez" en el diccionario 
 `apellidos_dict`.
