@@ -92,7 +92,7 @@ posición 78 de la lista `apellidos_list`.
 """
 apellidos_list2 = list(apellidos_tuple)
 apellidos_list2.append(apellidos_list[78])
-print(apellidos_list2)
+#print(apellidos_list2)
 
 """Eliminar el 4 elemento de la variable `apellidos_list2`.
 """
@@ -178,14 +178,14 @@ var3=apellidos_set3.issubset(apellidos_set1)
 del 0 al 4 de la lista `apellidos_lista`.
 """
 apellidos_dict = dict.fromkeys(apellidos_list[0:4])
-#print(apellidos_dict)
+print(apellidos_dict)
 
 
 """Agregar el siguiente diccionario: {"key1": 12, "key2": 24} al diccionario  
 `apellidos_dict`.
 """
 apellidos_dict.update({"key1": 12, "key2": 24})
-#print(apellidos_dict)
+print(apellidos_dict)
 
 """Asignar el valor del entero `34` a la llave "gonzalez" en el diccionario 
 `apellidos_dict`.
