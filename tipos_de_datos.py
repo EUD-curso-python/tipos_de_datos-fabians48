@@ -197,15 +197,16 @@ apellidos_dict["gonzalez"]=34
 guardarlo en la variable `apellido_gonzalez`.
 """
 apellido_gonzalez = apellidos_dict["gonzalez"]
-print(apellido_gonzalez)
+#print(apellido_gonzalez)
 
 """Eliminar el último elemento del diccionario `apellidos_dict`.
 """
 del(apellidos_dict["key2"])
-print(apellidos_dict)
+#print(apellidos_dict)
 
 """Sacar el valor de la llave "no_existe" del diccionario `apellidos_dict` y 
 guardarlo en la variable `apellido_none`.
 """
-
+apellido_none=apellidos_dict.get("no_existe")
+#print(apellido_none)
 
